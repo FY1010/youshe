@@ -1,0 +1,377 @@
+@media screen and (min-width: 768px) and (max-width: 1920px){
+    #header_mobile{
+        display: none;
+    }
+    .headerLogo{
+        width: 68px;
+        height: 42px;
+        margin: 8px auto;
+        top: 8px;
+    }
+    #header{
+        white-space: nowrap;
+        z-index: 10;
+        margin: 0 auto;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        width: 100%;
+        height: 58px;
+        box-shadow:  0 0 25px rgba(0,0,0,0.1);
+    }
+    #containerHeader{
+        z-index: 1;
+        position: relative;
+        font-size: 14px;
+        display: flex;
+        padding: 0 15px;
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 58px;
+    }
+    .xiala{
+        display: none;
+    }
+    .main_logo{
+        display:block;
+        width:160px;
+        height:58px;
+        background-color: #FF5C00;
+        text-align: center;
+    }
+    .headerUl{
+        display: flex;
+        height: 58px;
+        margin: 0 0 0 60px;
+    }
+    .headerBlock{
+        background-color: white;
+        font-size: 15px;
+        list-style: none;
+    }
+    .headerBlock a span{
+        text-decoration: none;
+        margin: 0 auto;
+        line-height: 58px;
+    }
+    .headerBlock a{
+        position: relative;
+        height: inherit;
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    #header_li_01{
+        height: 58px;
+        position: relative;
+    }
+    #header_li_08{
+        position: relative;
+    }
+    .bottomOrange{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        background-color: #ff5c00;
+    }
+    .headerUnder{
+        width: auto;
+    }
+    .search{
+        display: flex;
+        position: absolute;
+        right: 15px;
+        height: 58px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    #searchIcon{
+        width: 14px;
+        transition-duration: 0.2s;
+    }
+    #searchBox{
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 30px;
+        border-radius: 15px;
+        width: 90px;
+        height: 32px;
+        background-color: #F5F5F5;
+        transition-duration: 0.2s;
+    }
+    #searchBox:hover{
+        background-color: #FFF5EF;
+        transition-duration: 0.2s;
+    }
+    #searchBox img{
+        margin: 0 auto;
+    }
+    #searchBox span{
+        margin: 0 auto;
+    }
+    #headerEnd{
+        overflow: hidden;
+        background-color: white;
+        box-shadow: 2px 2px 18px rgba(0,0,0,0.1);
+        height: 36px;
+        border-radius: 18px;
+    }
+    .mobile_menu{
+        display: none;
+        color: #FF5C00;
+        font-size: 14px;
+        float: right;
+    }
+    .searchContainer{
+        position: absolute;
+        left: 20px;
+        top: 6px;
+    }
+    .xl{
+        cursor: pointer;
+        background-color: white;
+        position: absolute;
+        top: 58px;
+        display: none;
+        flex-wrap: wrap;
+        width: 100%;
+        /*padding: 0 15px;*/
+        box-shadow:  0 0 25px rgba(0,0,0,0.1);
+    }
+    .xl img{
+        margin: 0 auto;
+        display: block;
+        width: 30px;
+    }
+    #xl1 h4{
+        text-align: center;
+    }
+    .xl div{
+        cursor: pointer;
+        border: 1px solid #f3f3f3;
+        padding: 20px 40px 40px;
+        margin: 20px;
+        white-space: nowrap;
+        transition-duration: 0.15s;
+    }
+    .xlImg{
+        transition: 0.2s;
+        display: inline-block;
+    }
+    #xl1 div{
+        width: 7%;
+    }
+    #xl2 div{
+        width: 15%;
+    }
+    #xl2 img{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #xl2 h4{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    #xl3 div{
+        display: flex;
+        width: 15%;
+    }
+    #xl3 img{
+        display: inline-block;
+    }
+    #xl3 h4{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    #xl4 div{
+        display: flex;
+        width: 15%;
+    }
+    #xl5 div{
+        display: flex;
+        width: 15%;
+    }
+    #xl6{
+        cursor: pointer;
+        padding-top: 10px;
+        width: inherit;
+        background-color: white;
+        position: absolute;
+        top: 58px;
+        left: -10%;
+        display: none;
+        margin: 0;
+    }
+    #xl6 div{
+        cursor: pointer;
+        padding: 10px 8px;
+        width: 100px;
+        background-color: white;
+        text-align: center;
+        transition-duration: 0.2s;
+    }
+    #xl6 div:hover{
+        background-color: #FF5C00;
+        transition-duration: 0.2s;
+    }
+    .main{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    #header{
+        display: none;
+    }
+    #containerHeader{
+         display: none;
+     }
+    #header_mobile{
+        background: white;
+        z-index: 10;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 36px;
+        box-shadow:  0 0 25px rgba(0,0,0,0.1);
+    }
+    #header2{
+        display: flex;
+        position: relative;
+        padding: 0 15px;
+    }
+    .HM{
+        display: inline-block;
+        height: 36px;
+        width: 97.05px;
+        background-color: #FF5C00;
+        background-image: url("../img/header/logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+    }
+    .mobile_menu{
+        font-size: 14px;
+        cursor: pointer;
+        text-align: right;
+        width: 100%;
+        position: relative;
+        color: #FF5C00;
+        display: inline-block;
+        line-height: 36px;
+    }
+    .menu_logo{
+        vertical-align: middle;
+        height: 26px;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        position: fixed;
+        top: 36px;
+        left: 0;
+        display: none;
+        flex-wrap: nowrap;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .menu{
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        color: #888888;
+    }
+    .m_searchDiv{
+        position: relative;
+        display: block;
+        padding: 15px 25px;
+    }
+    .m_search{
+        position: relative;
+        width: 75%;
+        display: block;
+        border: none;
+        font-size: 14px;
+        padding: 10px 60px 10px 20px;
+        height: 20px;
+        text-align: left;
+        color: #888888;
+        border-radius: 20px;
+        background: #f7f7f7;
+    }
+    .m_search:focus{
+        border: none;
+        outline: 0;
+    }
+    .searchIcon{
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        top: 27px;
+        right: 50px;
+    }
+    .headerul{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 15px;
+        color: #262626;
+    }
+    .menuArrow{
+        transform: rotate(0);
+        transition: 0.1s;
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        width: 10px;
+        height: 10px;
+        background-image: url("../img/header/menuArrow.png");
+        background-position: center;
+    }
+    .headerul li{
+        margin: 0;
+        padding: 20px 0;
+        display: block;
+        position: relative;
+        cursor: pointer;
+    }
+    .headerul li a{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .li_show{
+        transition: 0.2s;
+        flex-wrap: wrap;
+        padding: 25px 0;
+        display: none;
+        width: 100%;
+        background-color: #fafafa;
+    }
+    .items{
+        font-size: 14px;
+        color: #888888;
+        text-align: center;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .items img{
+        width: 22px;
+        display: block;
+        margin: 0 auto;
+    }
+    .MF{
+        text-align: center;
+        color: #aaaaaa;
+        font-size: 10px;
+        padding: 20px 5px 100px;
+    }
+}

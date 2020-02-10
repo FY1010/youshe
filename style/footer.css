@@ -1,0 +1,266 @@
+@media screen and (min-width: 768px) and (max-width: 1920px){
+    #footer_animation{
+        height: 10px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    #container{
+        width: 3000px;
+        height: 10px;
+        position: absolute;
+    }
+    #footer_top{
+        background-color: #EDF3F9;
+    }
+    #footer_top_container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 1300px;
+        margin: 0 auto;
+        padding: 36px 0;
+    }
+    #footer_top_container a{
+        font-size: 26px;
+        font-weight: 800;
+    }
+    #footer_top_container p{
+        font-size: 14px;
+        color: #797979;
+    }
+    #youshewnag{
+        padding-bottom: 10px;
+        display: block;
+    }
+    #youshewnag:hover{
+        color: black;
+    }
+    #shoucang{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 32px;
+        background-color: #FF5C00;
+    }
+    #shoucang span{
+        font-weight: normal;
+        font-size: 16px;
+    }
+    li{
+        cursor: pointer;
+    }
+    #ren{
+        height: 213px;
+        position: absolute;
+        width: 230px;
+        overflow: hidden;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #ren span{
+        font-size: 20px;
+        position: absolute;
+        bottom: 100px;
+        right: -40px;
+        color: #a7a7a7;
+    }
+    #ren div{
+        right: 0;
+        transition: 0.2s;
+        position: absolute;
+        width: 190px;
+    }
+    #ren:hover #model{
+        transition-duration: 0.2s;
+        transform: translateX(-50px);
+    }
+    #footer_middle{
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+        background-color: #2A2A32;
+        font-size: 14px;
+        color: #949498;
+    }
+    #footer_start{
+        padding-right: 60px;
+        width: 26%;
+    }
+    #footer_middle h1{
+        font-size: 18px;
+        font-weight: normal;
+        color: white;
+        padding-bottom: 20px;
+    }
+    #footer_middle p{
+        line-height: 22.5px;
+    }
+    #footer_middle li{
+        line-height: 5px;
+    }
+    #footer_middle li a{
+        transition: 0.2s;
+    }
+    #footer_middle li a:hover{
+        color: white;
+        transition: 0.2s;
+    }
+    #footer_ul{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_{
+        padding-left: 60px;
+    }
+    #footer_end{
+        width: 25%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    #footer_end h2{
+        font-size: 54px;
+        color: #FF5C00;
+        text-align: center;
+    }
+    #footer_end span{
+        margin: 0 auto;
+    }
+    .M_footer_end{
+        background-color: #121212;
+        text-align: center;
+        color: #717171;
+        font-size: 12px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .weibo{
+        font-weight: 900;
+        font-size: 12px;
+        display: block;
+        text-align: center;
+        margin: 8px;
+    }
+    .weibo:hover{
+        color: white;
+    }
+    .weibo div{
+        margin: 5px;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background-color: #a5a5a5;
+    }
+    .weibo img{
+        width: 30px;
+        margin-top: 10px;
+    }
+    #weibo{
+        display: flex;
+        justify-content: center;
+    }
+    #footer_bottom{
+        position: relative;
+    }
+    .footer_color{
+        float: left;
+        width: 1500px;
+        height: 10px;
+        padding-bottom: 40px;
+        background-repeat: repeat;
+        background-color: #333;
+        background-image: repeating-linear-gradient(to right, #68103b, #68103b 50px, #703f28 50px, #703f28 100px, #a16b13 100px, #a16b13 150px, #a5a02c 150px, #a5a02c 200px, #5e812d 200px, #5e812d 250px, #1c6075 250px, #1c6075 300px, #403161 300px, #403161 350px);
+        animation: animate-colors 200s infinite linear;
+    }
+    #bottom{
+        background-image: linear-gradient(to bottom,rgba(3,3,3,0),rgba(3,3,3,1));
+        background-color: #121212;
+        padding: 20px 150px;
+        position: relative;
+        bottom: 0;
+        color: #4f4f4f;
+    }
+    #bottom h6{
+        font-weight: normal;
+        font-size: 12px;
+        display: inline-block;
+        margin: 0 6px;
+    }
+    #bottom a{
+        font-size: 12px;
+        margin: 0 6px;
+    }
+    #bottom a:hover{
+        color: white;
+    }
+}
+@media screen and (max-width: 768px){
+    #footer_top{
+        display: none;
+    }
+    #footer_top_container{
+        display: none;
+    }
+    #footer_ul{
+        display: none;
+    }
+    #footer_end{
+        display: none;
+    }
+    #footer_start{
+        padding: 30px 15px;
+        color: #949498;
+        background-color: #2a2a32;
+    }
+    #footer_start h1{
+        margin-bottom: 14px;
+        font-size: 18px;
+        color: white;
+    }
+    #footer_start p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer_color{
+        float: left;
+        width: 1500px;
+        height: 10px;
+        padding-bottom: 40px;
+        background-repeat: repeat;
+        background-color: #333;
+        background-image: repeating-linear-gradient(to right, #68103b, #68103b 50px, #703f28 50px, #703f28 100px, #a16b13 100px, #a16b13 150px, #a5a02c 150px, #a5a02c 200px, #5e812d 200px, #5e812d 250px, #1c6075 250px, #1c6075 300px, #403161 300px, #403161 350px);
+        animation: animate-colors 200s infinite linear;
+    }
+    #bottom{
+        display: none;
+    }
+    #footer_bottom{
+        position: relative;
+    }
+    .M_footer_end{
+        box-sizing: border-box;
+        padding-top: 30px;
+        width: 100%;
+        height: 80px;
+        font-size: 11px;
+        color: #949498;
+        position: relative;
+        text-align: center;
+        background-color: #2A2A32;
+        bottom: 0;
+    }
+    #footer_animation{
+        height: 10px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    #container{
+        width: 3000px;
+        height: 10px;
+        position: absolute;
+    }
+}

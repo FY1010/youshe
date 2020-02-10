@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="click" id="btn"/>
+<script>
+let btn = document.getElementById('btn');
+btn.onclick = function(){
+    let myAjax = new XMLHttpRequest();
+    myAjax.open("GET","https://www.easy-mock.com/mock/5e3eb4b048b5982a429ed978/example/mock",true);
+    myAjax.send(null);
+    myAjax.onreadystatechange = function () {
+        if (myAjax.readyState == 4) {
+            if (myAjax.status == 200 || myAjax.status == 304){
+                console.log(myAjax.getAllResponseHeaders())
+            }else{
+                console.log("失败"+myAjax.status)
+            }
+        }
+    };
+
+}
+
+</script>
+</body>
+</html>
